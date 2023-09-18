@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/TWITTER/image/fav3.png" type="image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Customize your experience</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 60%;
+            height: 550px;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+        }
+        .up{
+            margin-left: 20px;
+            padding-top: 20px;
+            display: flex;
+        }
+        .up i{
+            margin-right: 25px;
+        }
+        .main{
+            width: 80%;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .main h1{
+            width: 90%;
+            padding-bottom: 30px;
+        }
+        .main h3{
+            padding-bottom: 30px;
+            
+        }
+        p{
+            padding-bottom: 40px;
+            color: gray;
+        }
+        p > span{
+            color: #8DDFCB;
+            cursor: pointer;
+        }
+        .next{
+          width: 100%;
+          height: 60px;
+          background-color: black;
+          color: white;
+          margin-top: 20px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;  
+        }
+        .next a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        /* @media */
+
+        @media (max-width:780px){
+          .container{
+            width: 80%;
+            height: 90%;
+            border-radius: 15px;
+        }
+        .main h1{
+            font-size: 25px;
+        }
+        .main h3{
+            font-size: 18px;            
+        }
+        .main p{
+            font-size: 15px;
+        }
+        .next{
+            height: 40px;
+        }
+      }
+        @media (max-width:650px){
+          .container{
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        
+        }
+        @media (max-width:450px){
+          .container{
+            width: 100%;
+            height: 100%;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+        <i class="fa-solid fa-arrow-left"></i>
+        <h4>Step 2 of 5</h4>
+    </div>
+        <div class="main">
+            
+            <h1>Customize your experience</h1>
+            <h3>Track where you see <i class="fa-solid fa-x"></i> content across the <br> web</h5>
+            <p>X uses this data to personalize your experience. This web&nbsp; &nbsp;<input type="checkbox" id="check"> <br>  browsing history will never be stored with your name, <br> email, or phone number.</p>
+            <p>By signing up, you agree to our <span>terms, Pravacy Policy,</span> and <span>Cookie Use</span>. X may use your contact information , including your email address and phone number for purposes outlined in our Privacy policy. <span>Learn more</span></p>
+            <div class="next"><a href="next2.html">Next</a></div>
+        </div>
+    </div>
+</body>
+</html>

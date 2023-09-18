@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/TWITTER/image/fav3.png" type="image/favicon.png">
+    <title>Log in to Twitter / X</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        .container{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+        }
+        .up{
+            width: 50%;
+            margin-left: 20px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main{
+            width: 50%;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .main h1{
+            margin-bottom: 30px;
+        }
+        .google{
+            width: 100%;
+            height: 40px;
+            border: 0.5px grey solid;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .apple{
+            width: 100%;
+            height: 40px;
+            border: 0.5px grey solid;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .or{
+            width: 100%;
+            height: 40px;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        hr{
+            width: 400px;
+            margin-right: 20px;
+            border: 0.5px #E4E4D0 solid;
+        }
+        .or p{
+            margin-right: 20px;
+        }
+        input[placeholder=" Phone, Email or username"]{
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: 0.5px grey solid;
+            cursor: pointer;
+        }
+        .next{
+          width: 100%;
+          height: 40px;
+          background-color: black;
+          color: white;
+          margin-top: 20px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;  
+          cursor: pointer;
+        }
+        .next a{
+          text-decoration: none;
+          color: white;
+        }
+        .forget{
+            width: 100%;
+          height: 40px;
+          border: 0.5px grey solid;
+          background-color: white;
+          color: black;
+          margin-top: 20px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;  
+          cursor: pointer;
+        }
+        .forget a{
+          text-decoration: none;
+          color: black;
+        }
+        .dont{
+            margin-top: 30px;
+            
+        }
+        .dont a{
+            text-decoration: none;
+            color: #8DDFCB;
+            cursor: pointer;
+        }
+        /* @media */
+
+        @media (max-width:780px){
+          .container{
+            width: 80%;
+            height: 90%;
+            border-radius: 15px;
+        }
+        .main h1{
+            font-size: 25px;
+        }
+      }
+        @media (max-width:650px){
+          .container{
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        
+        }
+        @media (max-width:450px){
+          .container{
+            width: 100%;
+            height: 100%;
+        }
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+            <i class="fa-solid fa-x"></i>
+            <img src="image/x-twitter.png" height="30" width="30">
+        </div>
+        <div class="main">
+            <h1>Sign in to <i class="fa-solid fa-x"></i></h1>
+            <div class="google"><i class="fa-brands fa-google"></i> &nbsp; Sing  with Gmail</div>
+            <div class="apple"><i class="fa-brands fa-apple"></i> &nbsp; Sing in with Apple</div>
+            <div class="or">
+                <hr>
+                <p> or </p>
+                <hr>
+            </div>
+            <form>
+                <input type="text" id="WordCountInput" placeholder=" Phone, Email or username">
+            </form>
+            <div class="next"> <a href="">Next</a></div>
+            <h4 class="forget"><a href="forget-password.html">Forget password?</a></h4>
+            <p class="dont">Don't have an account? <a href="sign-up.html">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>

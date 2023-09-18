@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate</title>
+    <link rel="icon" href="/TWITTER/image/fav3.png" type="image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 60%;
+            height: 550px;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+        }
+        .up{
+            width: 50%;
+            margin-left: 20px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .icon{
+            width: 100%;
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        }
+        .main{
+            width: 80%;
+            margin: auto;
+            padding-top: 30px;
+            text-align: center; 
+        }
+        .main h1{
+            margin-bottom: 30px;
+        }
+        .main p{
+            margin-bottom: 30px;
+        }
+        .Authenticate{
+          width: 100%;
+          height: 40px;
+          background-color: black;
+          margin-bottom: 30px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center; 
+        }
+        .Authenticate a{
+            text-decoration: none;
+            color: white;
+        }
+         /* @media */
+
+         @media (max-width:780px){
+          .container{
+            width: 80%;
+            height: 90%;
+            border-radius: 15px;
+        }
+      }
+        @media (max-width:650px){
+          .container{
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        
+        }
+        @media (max-width:450px){
+          .container{
+            width: 100%;
+            height: 100%;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+            <i class="fa-solid fa-x"></i>
+            <img src="image/x-twitter.png" height="30" width="30">
+        </div>
+            <div class="icon">
+            <i class="fa-solid fa-shield-halved fa-6x"></i>
+            </div>
+        <div class="main">
+            <h1>Authenticate your account</h1>
+            <p>we need to make sure that you're a real person.</p>
+            <div class="Authenticate">
+                <a href="#">Authenticate</a>
+            </div>
+            <p>696785bad7779594.5899451705</p>
+        </div>
+    </div>  
+</body>
+</html>

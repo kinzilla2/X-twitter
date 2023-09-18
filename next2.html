@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="icon" href="/TWITTER/image/fav3.png" type="image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 60%;
+            height: 550px;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+        }
+        .up{
+            margin-left: 20px;
+            padding-top: 20px;
+            display: flex;
+        }
+        .up i{
+            margin-right: 25px;
+        }
+        .main{
+            width: 80%;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .main h1{
+            margin-bottom: 20px;
+        }
+        input[placeholder=" Name"] {
+          width: 100%;
+          height: 40px;
+          font-size: 12px;
+          border-radius: 5px;
+          font-size: 15px;
+          border: 0.5px gray solid;
+          cursor: pointer;
+          margin-bottom: 20px;
+        }
+        input[placeholder=" Email"] {
+          width: 100%;
+          height: 40px;
+          font-size: 12px;
+          border-radius: 5px;
+          font-size: 15px;
+          border: 0.5px gray solid;
+          cursor: pointer;
+          margin-bottom: 20px;
+        }
+        input[placeholder=" Date of birth"] {
+          width: 100%;
+          height: 40px;
+          font-size: 12px;
+          border-radius: 5px;
+          font-size: 15px;
+          border: 0.5px gray solid;
+          cursor: pointer;
+          margin-bottom: 10px;
+        }
+        .policy{
+            width: 80%;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .policy p{
+            font-size: 14px;
+        }
+        p > span{
+            color: #8DDFCB;
+            cursor: pointer;
+        }
+        .signup{
+          width: 100%;
+          height: 40px;
+          background-color: #15b68b;
+          color: white;
+          margin-top: 20px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;  
+        }
+        .signup a{
+            text-decoration: none;
+            color: white;
+        }
+
+         /* @media */
+
+         @media (max-width:780px){
+          .container{
+            width: 80%;
+            height: 90%;
+            border-radius: 15px;
+        }
+      }
+        @media (max-width:650px){
+          .container{
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        
+        }
+        @media (max-width:450px){
+          .container{
+            width: 100%;
+            height: 100%;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h4>Step 3 of 5</h4>
+        </div>
+        <div class="main">
+                <h1>Create your account</h1>
+                <input type="text" id="WordCountInput" placeholder=" Name">
+                <input type="text" id="WordCountInput" placeholder=" Email">
+                <input type="text" id="WordCountInput" placeholder=" Date of birth">
+        </div>
+        <div class="policy">
+            <p>
+                By signing up, you agree to the <span>Terms of Service</span> and <span> Pravacy Policy</span>,<br> and <span>Cookie Use</span>. Twitter may use your contact information, including <br> your email address and phone number for purposes outlined in our <br> Privacy policy, like keeping your account secure and personalizing our <br> Services, including ads.<span>Learn more</span>Others will be able to find you by <br> email or phone number, when provided, unless you choose otherwise <br> <span>here</span>.
+            </p>
+            <div class="signup">
+                <a href="Authenticate.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

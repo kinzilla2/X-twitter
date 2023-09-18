@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="icon" href="/TWITTER/image/fav3.png" type="image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 60%;
+            height: 550px;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+        }
+        .up{
+            width: 50%;
+            margin-left: 20px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .dashboard{
+            width: 60%;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .dashboard h1{
+            margin-bottom: 30px;
+        }
+        .google{
+    border: 0.5px grey solid;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: grey;
+}
+.google i{
+    font-size: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.apple{
+    border: 0.5px grey solid;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.apple:hover{
+    background-color: grey;
+}
+.apple i{
+    font-size: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.or{
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+hr{
+    width: 150px;
+    margin-right: 20px;
+    border: 0.5px #E4E4D0 solid;
+}
+.or p{
+    margin-right: 20px;
+}
+.create{
+    border: 0.5px black solid;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.create a{
+    text-decoration: none;
+    color: white;
+}
+p >span{
+    color: #8DDFCB;
+    font-size: 14px;
+    cursor: pointer;
+}
+p>a{
+    text-decoration: none;
+    color: #8DDFCB;
+    cursor: pointer;
+}
+p{
+    margin-bottom: 35px;
+    color: grey;
+    font-size: 14px;
+}
+
+ /* @media */
+
+ @media (max-width:780px){
+          .container{
+            width: 80%;
+            height: 90%;
+            border-radius: 15px;
+        }
+      }
+        @media (max-width:650px){
+          .container{
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        
+        }
+        @media (max-width:450px){
+          .container{
+            width: 100%;
+            height: 100%;
+        }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+            <i class="fa-solid fa-x"></i>
+            <img src="image/x-twitter.png" height="30" width="30">
+        </div>
+        <div class="dashboard">
+            <h1>Join <i class="fa-solid fa-x"></i> today</h1>
+        
+            <div class="google"><i class="fa-brands fa-google"></i> Sing up with Gmail</div>
+            <div class="apple"><i class="fa-brands fa-apple"></i> Sing up with Apple</div>
+            <div class="or">
+            <hr>
+            <p> or </p>
+            <hr>
+            </div>
+            <div class="create"><a href="create-account.html">Create account</a></div>
+            <p class="policy">By signing up, you agree to the <span>Terms of Service</span> and <span> Privacy Policy</span>, including <span>Cookie Use.</span></p> 
+            <p class="already">have an account already? <a href="sign-in.html">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
